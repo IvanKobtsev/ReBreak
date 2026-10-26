@@ -10,7 +10,6 @@
     "preview": "vp preview"
   },
   "dependencies": {
-    "prettier": "^3.9.9",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
@@ -24,8 +23,9 @@
     "@vitejs/plugin-react": "^6.1.1",
     "babel-plugin-react-compiler": "^1.0.0",
     "typescript": "~6.0.2",
-    "vite": "npm:@voidzero-dev/vite-plus-core@1.1.0",
-    "vite-plus": "1.4.0"
+    "vite": "catalog:",
+    "vite-plus": "catalog:",
+    "orval": "^8.44.0"
   },
   "resolutions": {
     "vite": "npm:@voidzero-dev/vite-plus-core@1.1.0"
