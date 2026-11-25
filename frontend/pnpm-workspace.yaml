@@ -3,6 +3,21 @@ allowBuilds:
 catalog:
   vite: npm:@voidzero-dev/vite-plus-core@1.4.0
   vite-plus: 1.4.0
+minimumReleaseAgeExclude:
+  - '@cross-css/native-darwin-arm64@0.3.0 || 0.8.1 || 0.10.0 || 0.11.0 || 0.16.0'
+  - '@cross-css/native-darwin-x64@0.3.0 || 0.8.1 || 0.10.0 || 0.11.0 || 0.16.0'
+  - '@cross-css/native-linux-arm64-gnu@0.3.0 || 0.8.1 || 0.10.0 || 0.11.0 || 0.16.0'
+  - '@cross-css/native-linux-arm64-musl@0.3.0 || 0.8.1 || 0.10.0 || 0.11.0 || 0.16.0'
+  - '@cross-css/native-linux-x64-gnu@0.3.0 || 0.8.1 || 0.10.0 || 0.11.0 || 0.16.0'
+  - '@cross-css/native-linux-x64-musl@0.3.0 || 0.8.1 || 0.10.0 || 0.11.0 || 0.16.0'
+  - '@cross-css/native-win32-arm64-msvc@0.3.0 || 0.8.1 || 0.10.0 || 0.11.0 || 0.16.0'
+  - '@cross-css/native-win32-x64-msvc@0.3.0 || 0.8.1 || 0.10.0 || 0.11.0 || 0.16.0'
+  - '@cross-css/native@0.3.0 || 0.8.1 || 0.10.0 || 0.11.0 || 0.16.0'
+  - '@cross-css/vite-plugin@0.3.0'
+  - '@cross-css/vite@0.8.1 || 0.10.0 || 0.11.0 || 0.16.0'
+  - '@solidjs/web@2.0.4'
+  - '@solidjs/signals@2.0.4'
+  - solid-js@2.0.4
 overrides:
   vite@*: 'catalog:'
 peerDependencyRules:

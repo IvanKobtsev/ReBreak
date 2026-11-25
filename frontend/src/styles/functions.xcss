@@ -1,0 +1,7 @@
+@function transparentize($color: color, $opacity: percentage) {
+  @return rgb(from $color r g b / $opacity);
+}
+
+@function equalGridColumns($columnCount: number) {
+  @return repeat($columnCount, minmax(0, 1fr));
+}

@@ -1,6 +1,5 @@
 {
   "name": "re-break",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,22 +9,22 @@
     "preview": "vp preview"
   },
   "dependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "@cross-css/vite": "0.16.0",
+    "@solidjs/router": "^2.0.1",
+    "@solidjs/web": "^2.0.4",
+    "solid-js": "^2.0.4",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.7",
+    "@cross-css/vite-plugin": "0.3.0",
     "@rolldown/plugin-babel": "^0.2.3",
-    "@types/babel__core": "^7.20.5",
+    "@solidjs/vite-plugin": "^3.0.1",
     "@types/node": "^24.13.3",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
-    "@vitejs/plugin-react": "^6.1.1",
-    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint-plugin-solid": "^0.20.1",
+    "orval": "^8.44.0",
     "typescript": "~6.0.2",
     "vite": "catalog:",
-    "vite-plus": "catalog:",
-    "orval": "^8.44.0"
+    "vite-plus": "catalog:"
   },
   "resolutions": {
     "vite": "npm:@voidzero-dev/vite-plus-core@1.1.0"

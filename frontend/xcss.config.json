@@ -1,0 +1,19 @@
+{
+  "suffixLength": 3,
+  "tsconfig": "./tsconfig.app.json",
+  "cross-figma": {
+    "output": "src/styles/generated",
+    "themes": {
+      "Light": {
+        "modes": {
+          "Colors": "Mode 1"
+        }
+      }
+    },
+    "screens": {},
+    "units": {
+      "exact": {},
+      "prefix": {}
+    }
+  }
+}
